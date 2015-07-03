@@ -22,7 +22,7 @@ import (
 )
 
 // Create a map to specify the commands and a help message
-commands := map[string]string{
+var commands = map[string]string{
     "config": "Path to configuration file.",
 }
 
