@@ -60,7 +60,7 @@ func (self *ArgumentsHandler) GetParam(cmd string) string {
 	if val, ok := self.args[cmd]; ok {
 		return val
 	}
-	return nil
+	return ""
 }
 
 // Returns true if there is an error

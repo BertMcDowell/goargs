@@ -44,7 +44,7 @@ func main() {
 		configFile = args.GetParam("config")
 
 		// Check the parameter is not nil
-		if configFile == nil {
+		if configFile == "" {
 			fmt.Println("Parameter was not found")	
 		}
 		else { 
