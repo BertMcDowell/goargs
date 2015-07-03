@@ -46,8 +46,7 @@ func main() {
 		// Check the parameter is not nil
 		if configFile == "" {
 			fmt.Println("Parameter was not found")	
-		}
-		else { 
+		} else { 
 			fmt.Println(configFile)
 		}
 	}
